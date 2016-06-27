@@ -76,6 +76,11 @@ h2,h3,h4 {
   position: relative;
   z-index: 3;
 }
+.msgbox-1 .contact_header {
+  text-align: center;
+  font-size: 22px;
+  line-height: 34px;
+}
 @media (max-width: 767px) {
   .msgbox-1 .container {
     padding: 67px 0 78px;
@@ -1314,6 +1319,10 @@ h2,h3,h4 {
   text-align: center;
   font-family: "Lato", Helvetica, Arial, sans-serif;
 }
+.clients .mbr-section__header{
+  position: relative;
+  top: -75px;
+}
 .categories .mbr-section__header {
   color: #fff;
  /* margin-top: 7px;*/
@@ -1416,6 +1425,9 @@ h2,h3,h4 {
     bottom: 31px;
   }
 }
+.testimony {
+  height: 200px !important;
+}
 .mbr-box {
   display: table;
   width: 100%;
@@ -1432,6 +1444,12 @@ h2,h3,h4 {
   margin-bottom: 0;
   margin-top: 0;
   vertical-align: middle;
+}
+.mbr-box__magnet .testimony__text{
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
 }
 .mbr-box__magnet--sm-padding {
   padding: 41px 0;
@@ -1518,6 +1536,9 @@ h2,h3,h4 {
   padding-bottom: 41px;
   position: relative;
   top: 8px;
+}
+.testimony .mbr-hero__subtext{
+  text-align: center;
 }
 .mbr-hero__subtext {
   font-size: 16px;
@@ -2039,6 +2060,23 @@ h2,h3,h4 {
   position: relative;
   margin-top: -21px;
   top: 14px;
+}
+.mbr-article .brands_title{
+  text-align: center;
+  color: #fff;
+  margin-top: 50px;
+}
+.mbr-article .brand_top,.mbr-article .barnd_bottom{
+  margin: 75px 0;
+}
+.mbr-article .brand_img {
+  width: 150px;
+  display: inline;
+  margin: 0 45px;
+}
+.mbr-article img {
+  width: 200px;
+  height: 75px;
 }
 .mbr-article--wysiwyg h1,
 .mbr-article--wysiwyg h2,
